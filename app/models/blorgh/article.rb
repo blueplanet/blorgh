@@ -7,10 +7,6 @@ module Blorgh
 
     before_validation :set_author
 
-    def to_s
-      name
-    end
-
     private
 
       def set_author

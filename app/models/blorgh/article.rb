@@ -5,7 +5,7 @@ module Blorgh
     attr_accessor :author_name
     belongs_to :author, class_name: 'User', dependent: :destroy
 
-    before_save :set_author
+    before_validation :set_author
 
     def to_s
       name

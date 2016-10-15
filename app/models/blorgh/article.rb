@@ -7,6 +7,10 @@ module Blorgh
 
     before_save :set_author
 
+    def to_s
+      name
+    end
+
     private
 
       def set_author

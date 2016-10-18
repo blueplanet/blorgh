@@ -1,5 +1,3 @@
-module Blorgh
-  class ApplicationController < ActionController::Base
-    protect_from_forgery with: :exception
-  end
+class Blorgh::ApplicationController < ApplicationController
+  protect_from_forgery with: :exception
 end

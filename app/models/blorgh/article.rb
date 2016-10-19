@@ -7,6 +7,10 @@ module Blorgh
 
     before_validation :set_author
 
+    def summary
+      "#{title}"
+    end
+
     private
 
       def set_author

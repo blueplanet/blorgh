@@ -1,4 +1,4 @@
-module Blorgh::Concerns::Models::Article
+module Blorgh::Concerns::ArticleAuthor
   extend ActiveSupport::Concern
 
   included do

@@ -1,6 +1,6 @@
 module Blorgh
   class Article < ApplicationRecord
-    include Blorgh::Concerns::Models::Article
+    include ArticleAuthor
 
     has_many :comments
   end
